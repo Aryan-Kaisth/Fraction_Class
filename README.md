@@ -1,4 +1,4 @@
-🧮 Fraction Class in Python
+# 🧮 Fraction Class in Python
 
 📌 Overview
 
@@ -74,34 +74,4 @@ Divides multiple fractions by multiplying with their reciprocals.
 
 Returns a new simplified Fraction object.
 
-🔥 Why Use This Class?
-
-✅ Makes fraction operations intuitive and readable.
-✅ Supports multiple fractions in a single operation.
-✅ Handles zero denominators to prevent crashes.
-✅ Automatically simplifies results.
-✅ Returns Fraction objects, allowing chaining of operations.
-
-👀 Example Use Cases
-
-f1 = Fraction(2, 5)
-f2 = Fraction(3, 7)
-f3 = Fraction(4, 9)
-
-# Perform operations
-result1 = f1 + f2 - f3  # Multiple operations in one line
-result2 = (f1 * f2) / f3  # Mixing multiplication & division
-
-print(f"Result 1: {result1}")  # Output: 29/35
-print(f"Result 2: {result2}")  # Output: 21/40
-
-⚡ Future Improvements
-
-🔹 Add support for negative fractions
-🔹 Implement comparison operators (==, >, <)
-🔹 Support mixed fractions (e.g., 1 1/2)
-
-📜 License
-
-This project is open-source and free to use. Feel free to modify and improve it! 🚀
 
